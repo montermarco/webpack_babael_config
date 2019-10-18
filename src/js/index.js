@@ -1,6 +1,7 @@
 // Global app controller
 import x from './test';
 
-const num = 1986;
+const imported = x;
+const status = "Active";
 
-console.log(`what is up markito ${x} and year is ${num}`);
+console.log(`Testing the server: SERVER [ -- ${status} -- ] and ${imported}`);
